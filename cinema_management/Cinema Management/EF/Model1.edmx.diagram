@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="0651239827c9403b869b4bef6c25fdad" Name="Diagram1">
+        <EntityTypeShape EntityType="QLRP1Model.DinhDangPhim" Width="1.5" PointX="3" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLRP1Model.LichChieu" Width="1.5" PointX="5.25" PointY="6.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLRP1Model.LoaiManHinh" Width="1.5" PointX="0.75" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLRP1Model.NhanVien" Width="1.5" PointX="5.75" PointY="10.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLRP1Model.Phim" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLRP1Model.PhongChieu" Width="1.5" PointX="3" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLRP1Model.sysdiagrams" Width="1.5" PointX="5.75" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLRP1Model.TheLoai" Width="1.5" PointX="1.5" PointY="12.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLRP1Model.Ve" Width="1.5" PointX="7.5" PointY="6.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLRP1Model.TaiKhoan" Width="1.5" PointX="8" PointY="10.25" IsExpanded="true" />
+        <AssociationConnector Association="QLRP1Model.FK__DinhDangP__idLoa__35BCFE0A" ManuallyRouted="false" />
+        <AssociationConnector Association="QLRP1Model.FK__DinhDangP__idPhi__34C8D9D1" ManuallyRouted="false" />
+        <AssociationConnector Association="QLRP1Model.FK__LichChieu__idDin__3A81B327" ManuallyRouted="false" />
+        <AssociationConnector Association="QLRP1Model.FK__LichChieu__idPho__398D8EEE" ManuallyRouted="false" />
+        <AssociationConnector Association="QLRP1Model.FK__Ve__TienBanVe__403A8C7D" ManuallyRouted="false" />
+        <AssociationConnector Association="QLRP1Model.FK__PhongChie__idMan__2D27B809" ManuallyRouted="false" />
+        <AssociationConnector Association="QLRP1Model.FK__TaiKhoan__idNV__276EDEB3" ManuallyRouted="false" />
+        <AssociationConnector Association="QLRP1Model.FK__Phim__idTheLoai__31EC6D26" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
